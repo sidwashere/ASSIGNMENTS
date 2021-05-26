@@ -30,6 +30,8 @@ menu.state('getAge', {
         })
     }
 })
+
+//This fucntion check for Age at Validates wether the person is still elibigble for work.
 function countAge() {
    
         if (age <= 50()) 
