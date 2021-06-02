@@ -1,5 +1,10 @@
 
-menu.state('getFirstName', {
+
+//First State State
+
+
+
+menu.startState('getFirstName', {
     run: () => {
         let firstName = menu.val;
         menu.session.set('firstName', firstName)
